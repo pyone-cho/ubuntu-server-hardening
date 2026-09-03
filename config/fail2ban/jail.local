@@ -1,0 +1,13 @@
+[DEFAULT]
+bantime  = 1h
+findtime = 10m
+maxretry = 5
+backend  = systemd
+banaction = ufw
+
+[sshd]
+enabled  = true
+port     = ssh
+filter   = sshd
+maxretry = 3
+bantime  = 24h

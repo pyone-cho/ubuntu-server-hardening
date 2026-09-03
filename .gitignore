@@ -1,0 +1,9 @@
+# Local config (copy from .env.example)
+.env
+
+# Backups created by scripts
+*.bak.*
+
+# OS
+.DS_Store
+Thumbs.db
